@@ -75,9 +75,7 @@ go build -o CquptFunAnnihilator.exe .
 4. 点击确定后，系统会生成一个 API Key
 5. **⚠️ 重要**：请立即复制并保存这个 API Key，它只会显示一次！
 
-#### 第四步：查看 API Key
-- 如果忘记保存，可以在 API-KEY 管理页面查看已创建的 Key
-- 点击 Key 右侧的眼睛图标可以查看完整内容
+
 
 ## 2. 获取平台 Cookie（详细图文教程）
 
