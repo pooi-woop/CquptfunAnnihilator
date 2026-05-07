@@ -67,6 +67,16 @@ func loadConfig() (*models.Config, error) {
 }
 
 func main() {
+	fmt.Println("==============================================")
+	fmt.Println("作者：皖月清风")
+	fmt.Println("版本：1.0.0")
+	fmt.Println("描述：重庆邮电大学FUN平台自动解题工具")
+	fmt.Println("作者个人博客：https://pooiwoop-github-io.pages.dev/")
+	fmt.Println("本工具完全免费，请勿相信任何收费行为！")
+	fmt.Println("本工具采用MIT许可证。")
+	fmt.Println("==============================================")
+	fmt.Println()
+
 	flag.Parse()
 
 	cfg, err := loadConfig()
@@ -114,7 +124,7 @@ func main() {
 		zap.Int("solverMaxRetries", cfg.Solver.MaxRetries),
 		zap.Int("submissionDelayS", cfg.Solver.SubmissionDelayS),
 	)
-	
+
 	fmt.Printf("提交间隔时间配置: %d秒\n", cfg.Solver.SubmissionDelayS)
 
 	httpClient := client.NewHttpClient(
