@@ -1,6 +1,6 @@
 # CquptFunAnnihilator
 
-CquptFunAnnihilator 是一个针对 EduForge 在线学习平台的自动化答题工具，能够自动获取题目列表、调用 AI 生成答案并提交。
+CquptFunAnnihilator 是一个针对 EduForge/CquptFun 在线学习平台的自动化答题工具，能够自动获取题目列表、调用 AI 生成答案并提交。
 
 ## 功能特性
 
