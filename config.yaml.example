@@ -1,0 +1,21 @@
+platform:
+  base_url: "https://cqupt.fun"
+  timeout: 30
+
+auth:
+  cookie: "your_cookie_here"
+
+llm:
+  api_key: "your_api_key_here"
+  base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  model: "qwen-plus"
+  max_tokens: 2000
+
+solver:
+  delay_ms: 2000
+  max_retries: 3
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+
+logging:
+  level: "info"
+  file: "cqupt_fun.log"
